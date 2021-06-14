@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="login-container">
+      <div class="login-panel">
+        <div class="panel-body">
+          <h1 style="width: 100%; padding: 1rem; text-align: center">
+            Number Generator
+          </h1>
+          <div class="panel-inputs">
+            <form
+              action="execution.php"
+              method="post"
+              class="form-action"
+              id="fileForm"
+              role="form"
+            >
+              <div class="input-field">
+                <input
+                  type="email"
+                  required
+                  name="email"
+                  placeholder="Email"
+                  class="input-space"
+                />
+              </div>
+              <div class="input-field">
+                <input
+                  type="password"
+                  name="password"
+                  placeholder="Password"
+                  class="input-space"
+                  required
+                />
+              </div>
+              <button name="login" class="btn submit">Login</button>
+            </form>
+            <a href="sign-up.html" class="link">Create account</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

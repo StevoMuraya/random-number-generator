@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="login-container">
+      <div class="login-panel">
+        <div class="panel-body">
+          <h1 style="width: 100%; padding: 1rem; text-align: center">
+            Random Number Selector
+          </h1>
+          <h6 style="width: 100%; padding: 1rem; text-align: center">
+            Fill in the spaces below to complete your account
+          </h6>
+          <div class="panel-inputs">
+            <form
+              action="execution.php"
+              method="post"
+              class="form-action"
+              id="fileForm"
+              role="form"
+            >
+              <div class="input-field">
+                <input
+                  type="text"
+                  required
+                  name="fullname"
+                  placeholder="Fullname"
+                  class="input-space"
+                />
+              </div>
+              <div class="input-field">
+                <input
+                  type="email"
+                  required
+                  name="email"
+                  placeholder="Email"
+                  class="input-space"
+                />
+              </div>
+              <div class="input-field">
+                <input
+                  type="tel"
+                  required
+                  name="phone"
+                  placeholder="Phone"
+                  class="input-space"
+                />
+              </div>
+              <div class="input-field">
+                <input
+                  type="password"
+                  name="password"
+                  placeholder="Password"
+                  class="input-space"
+                  required
+                />
+              </div>
+              <button name="user_reg" class="btn submit">Register</button>
+            </form>
+            <a href="index.html" class="link">Back to login</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
