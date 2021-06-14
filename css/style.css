@@ -1,0 +1,158 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+.login-container {
+  background-color: #1e284d;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-panel {
+  min-height: 80vh;
+  width: 30%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 250px;
+  border-radius: 0.3rem;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.panel-body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1rem;
+  height: 100%;
+  justify-content: space-between;
+}
+.panel-inputs {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-action {
+  width: 100%;
+  display: flex;
+  margin: 1rem 0;
+  flex-direction: column;
+  align-items: center;
+}
+.input-field {
+  width: 100%;
+  margin: 0.5rem 0;
+  border-radius: 0.5rem;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.input-space {
+  border: none;
+  outline: none;
+  width: 100%;
+  border-radius: 0.5rem;
+  min-height: 2.5rem;
+  background-color: #fff;
+  padding: 0 1rem;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #1e284d;
+  color: #fff;
+  border: none;
+  border-radius: 0.3rem;
+  width: fit-content;
+  padding: 0.5rem 3rem;
+  cursor: pointer;
+  margin: 1rem 0;
+  transition: all 100ms linear;
+}
+
+.btn:hover {
+  background-color: #27366d;
+  transform: scale(1.05);
+}
+.link {
+  text-decoration: none;
+  color: #273e91;
+  font-size: 1em;
+  transition: all 100ms linear;
+}
+.link:hover {
+  transform: scale(1.05);
+}
+.dash {
+  justify-content: initial;
+  align-items: initial;
+}
+.dashboard-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.username {
+  width: 100%;
+  margin: 0.5rem;
+}
+
+.users-list h3 {
+  margin: 0.5rem 0;
+}
+.users-list {
+  width: 100%;
+  display: flex;
+  margin: 1rem 0;
+  flex-direction: column;
+  align-items: center;
+}
+.user-card {
+  width: 90%;
+  height: 3rem;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  border-radius: 0.3rem;
+  margin: 0.3rem 0;
+  cursor: pointer;
+  padding: 0 0.5rem;
+  transition: all 200ms linear;
+}
+.user-card:hover {
+  transform: scale(1.07);
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.user-name {
+  padding: 0 1rem;
+}
+.text-content {
+  font-size: 0.8em;
+  padding: 0 1rem;
+  color: rgb(100, 100, 100);
+}
+.display-result {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0;
+}
+.result-num {
+  font-size: 4em;
+  color: rgba(0, 0, 0, 0.712);
+}
+.generate {
+  min-height: 4rem;
+}
